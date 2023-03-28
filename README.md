@@ -8,7 +8,7 @@ Our indicators are meant to evolve, we may have missed some parts and we know th
 
 We separate the measure in 3 pillars : device durability, energy sobriety and responsible application. In each pillar you will find macro-indicators in which you will find one file per indicator. Each indicator has its own rating and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
 
-For example, to compute the score for app’s size. Let’s say my app is 120Mb on iOS and 108Mb on android. If we go through the documentation for the app size indicator we read :
+For example, to compute the score for [app’s size][1]. Let’s say my app is 120Mb on iOS and 108Mb on android. If we go through the documentation for the app size indicator we read :
 
 ```
 - A: ≤ 50 Mb
@@ -30,3 +30,5 @@ To compute your score you have to go through our documentation, compute your app
 This tool is only at its beginning. We are sharing the V1 and it is meant to be improved. We are opened to suggestions, either to add a new indicator or to improve one already existing, about its measures or its sources and data.
 
 The easiest way to help us is to open an issue with your suggestions so that we can have access to it and decide to take it into account in our tool.
+
+[1]: ./devicesDurability/storageUsage/appSize.md
