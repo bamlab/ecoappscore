@@ -8,6 +8,8 @@ Our indicators are meant to evolve, we may have missed some parts and we know th
 
 We separate the measure in 3 pillars : device durability, energy sobriety and responsible application. In each pillar you will find macro-indicators in which you will find one file per indicator. Each indicator has its own rating and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
 
+> Historically, we use a Samsung J3 for all Android measurements. It works as a base for our indicators and all our grades are made for this device. The choice was made to use a low-performance phone to include as many users as possible.
+
 For example, to compute the score for [app’s size][1]. Let’s say my app is 120Mb on iOS and 108Mb on android. If we go through the documentation for the app size indicator we read :
 
 ```
