@@ -1,0 +1,26 @@
+{
+	"Markdown": {
+	  "prefix": "indicator-template",
+	  "body": [
+	"# ${1:IndicatorName}",
+	"",
+	"## Problem",
+	"${0}",
+	"## Measure",
+	"",
+	"### Grading",
+	"",
+	"- A",
+	"- B",
+	"- C",
+	"- D",
+	"",
+	"**Weight in the final calculation** :",
+	"",
+	"## Other information",
+	""
+	  ],
+	  "description": "Template for an indicator"
+	}
+  }
+  
