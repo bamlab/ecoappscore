@@ -29,6 +29,8 @@ Compute the average between iOS and Android size, then then following the scale 
 - C < 150 Mb : Very large app or large and not optimized app
 - D > 150 Mb : Too large app, insult to optimization
 
+**Weighting in the total calculation** : 2
+
 ## Other information
 
 The download limit for an app without a wifi connexion used to be 150Mb, it was recently raised to 200Mb
