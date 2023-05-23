@@ -6,7 +6,7 @@ The so-called addictive designs designate and group together the design techniqu
 
 ## Measure
 
-A measure of the number of designs that capture the user's attention as effectively as possible and then hold it as long as possible. The list of these tools can evolve with new technologies.
+For this measure, we will count the number of designs that capture the user's attention as effectively as possible and then hold it as long as possible. The list of these tools can evolve with new technologies.
 
 Addictive designs might encourage the visite of the application thanks to:
 
