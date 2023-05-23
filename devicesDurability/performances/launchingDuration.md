@@ -6,7 +6,7 @@ The longer the boot time, the more it is representative of an intense CPU load. 
 
 ## Measure
 
-Using a script, we launch the app's .apk file on a given phone and measure how much time it takes to see a graphic element.
+For this measure, we will use a script. We launch the app's .apk file on a given phone and measure how much time it takes to see a graphic element.
 
 ### Grading
 
