@@ -35,8 +35,6 @@ Janky frames: 1975 (74.42%)
 
 ### Grading
 
-We have tested an application with 23% of janky frames. The user notices it but it isn't annoying. The indicator is rather subjective and arbitrary for the moment. It will evolve.
-
 Score according to the number of junky frames observed:
 
 - A < 15% : The user does not perceive the janky frames
@@ -47,6 +45,8 @@ Score according to the number of junky frames observed:
 **Weighting in the total calculation** : 3
 
 ## Other information
+
+We have tested an application with 23% of janky frames. The user notices it but it isn't annoying. The indicator is rather subjective and arbitrary for the moment. It will evolve.
 
 ### Sources
 
