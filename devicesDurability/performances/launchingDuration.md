@@ -10,8 +10,6 @@ For this measure, we will use a script. We launch the app's .apk file on a given
 
 ### Grading
 
-At BAM, performance measurements at startup are calibrated on the Wiko fever.
-
 - A : The app starts in less than 3 seconds
 - B : The app takes between 3 and 6 seconds to start
 - C : The app takes between 6 and 10 seconds to start
@@ -21,4 +19,5 @@ At BAM, performance measurements at startup are calibrated on the Wiko fever.
 
 ### Sources
 
+- At BAM, performance measurements at startup are calibrated on a Samsung J3
 - [https://www.freecodecamp.org/news/top-reasons-why-your-mobile-app-is-slow-and-how-to-fix-it-f0f7ce524934](https://www.freecodecamp.org/news/top-reasons-why-your-mobile-app-is-slow-and-how-to-fix-it-f0f7ce524934)
