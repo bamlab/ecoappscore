@@ -1,4 +1,4 @@
-# eco-score-app
+# EcoAppScore
 
 EcoAppScore is a tool developped and maintained by the GreenIT Guild at bamlab. This tool gives your mobile application a score over 20 that represents how eco-designed it is. The documentation provided helps you to understand and measure the impact your app could have on the environment.
 
