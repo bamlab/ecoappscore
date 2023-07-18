@@ -4,7 +4,7 @@
 
 Using GPS data drastically increases battery consumption
 
-- Using the cell phone tower instead of GPS allows a 90% reduction in power consumption related to position sharing. On the other hand, the position is less accurate.
+- Using antenna chip instead of GPS chip allows a 90% reduction in power consumption related to position sharing. On the other hand, the position is less accurate.
 - In some cases, location by wifi or by phone antenna could be sufficient, but we still use GPS.
 
 ## Measure

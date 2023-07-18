@@ -2,11 +2,11 @@
 
 ## Problem
 
-The application needs to generate a sufficient number of frames per second (FPS) in order to have a pleasant user experience, both on the UI and JS side.
+The application needs to generate a sufficient number of frames per second (FPS) in order to have a pleasant user experience. If there are too few FPS, the application may "freeze" visually. On the UI thread, a freeze implies slow animations. In the case of a React Native App, frames are also generated in the JS thread, where a freeze implies that data is not loaded.
 
-If there are too few FPS, the application may "freeze" visually. A JS freeze implies that data is not loaded. A UI freeze implies slow animations. This performance may cause the user to switch to another phone.
+This performance may cause the user to switch to another phone.
 
-The goal is to have 60 FPS constant both for the UI and JS.
+The goal is to have 60 FPS constant for the UI (and JS if applicable).
 
 ## Measure
 
