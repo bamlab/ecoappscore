@@ -2,7 +2,11 @@
 
 ## Problem
 
-A responsible application should be usable by all. Some users may have visual or hearing impairments, but this should not impact their experience, as much as possible.
+In the realm of responsible application design, it is paramount to ensure usability for all users, regardless of any impairments they may have. Every individual should be able to access and engage with applications, aiming to minimise any negative impact on their experience.
+
+By prioritising accessibility, we can create inclusive app experiences that cater to diverse user needs. Incorporating features such as screen readers, adjustable font sizes, high contrast modes, and closed captions for multimedia content can greatly enhance accessibility for users with visual or hearing impairments.
+
+By striving to make applications universally accessible, we empower individuals with disabilities to fully engage with digital experiences.
 
 ## Measure
 
@@ -36,13 +40,13 @@ For this measure, we will use a list of different criteria. For each criteria we
 
 ### Grading
 
-- A: I respect all accessibility criteria (or "not concerned")
+- A: your app respects all accessibility criteria (or "not concerned")
 
-- B: The criteria not met are only among "growing text" and "color contrast"
+- B: your app does not respect criterias only among "growing text" and "color contrast"
 
-- C: The criteria not met are only among the criteria "page title", "intrusive popup", "phone shake gesture", "form label"
+- C: your app does not respect criterias only among "page title", "intrusive popup", "phone shake gesture", "form label"
 
-- D: The criteria "button with description" or "essential image with description" are not met
+- D: your app does not respect criterias "button with description" or "essential image with description"
 
 **Weight in the final calculation** : 1
 
