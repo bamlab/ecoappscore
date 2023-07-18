@@ -1,9 +1,9 @@
-Developping mobile apps has an impact on the environment. But in our opinion, there is also a social dimension.
+Developing mobile apps has an impact on the environment and on society.
 
 We create apps to answer the needs of our users - so our apps need to be useful, lovable and respectful to all of our users.
-The World Health Organization (WHO) estimates that over 15% of the world's population—or 1.3 billion people—self-identify as having a disability. Digital is now part of everyone's life. Therefore, making digital products accessible to the greater number of people is important. Some impairments are more impacted than others but still.
+The World Health Organisation (WHO) estimates that over 15% of the world's population—or 1.3 billion people—self-identify as having a disability. Digital is now part of everyone's life. Therefore, making digital products accessible to the greater number of people is important.
 
-Developping app also bring the question of the usage that our users will have : there are now more and more techniques to keep the users on their phone such as it can have an impact on their life.
+Developing apps also raises the question of their usages. More and more techniques are developed to keep the users on their phone,using more battery and having an impact on their lives..
 
 That's why we included this last pillar of responsibility.
 
