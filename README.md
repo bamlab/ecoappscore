@@ -29,6 +29,8 @@ To compute your score you have to go through our documentation, compute your app
 (indicator1Rate * indicator1Weight + indicator2Rate * indicator2Weight + ...)/(total)
 ```
 
+To give you an example, [here is the score computed with EcoAppScore of the Waze app](./WazeExample.md)
+
 ## How to contribute
 
 This tool is only at its beginning. We are sharing the V1 and it is meant to be improved. We are opened to suggestions, either to add a new indicator or to improve one already existing, about its measures or its sources and data.
