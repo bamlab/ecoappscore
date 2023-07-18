@@ -2,13 +2,13 @@
 
 # EcoAppScore
 
-EcoAppScore is a tool developped and maintained by the GreenIT Guild at bamlab. This tool gives your mobile application a score over 20 that represents how eco-designed it is. The documentation provided helps you to understand and measure the impact your app could have on the environment.
+EcoAppScore is a tool developped and maintained by the GreenIT Guild at [BAMLab](https://www.bam.tech/). This tool gives your mobile application a score over 20 that represents how eco-designed it is. The documentation provided helps you to understand and measure the impact your app could have on the environment.
 
 Our indicators are meant to evolve, we may have missed some parts and we know they aren’t perfect. For the moment, it is only a base on which to iterate. Sharing them is a way for us to improve this tool. If you are interested, do not hesitate to check the “How to contribute” part.
 
 ## How to compute my score
 
-We separate the measure in 3 pillars : device durability, energy sobriety and responsible application. In each pillar you will find macro-indicators in which you will find one file per indicator. Each indicator has its own rating and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
+We separate the measure in 3 pillars : [device durability](./devicesDurability/), [energy sobriety](./energySobriety/) and [responsible application](./responsibleApplication/). Each pillar contains macro-indicators, which contain indicators. Each indicator has its own markdown describing its rating and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
 
 > Historically, we use a Samsung J3 for all Android measurements. It works as a base for our indicators and all our grades are made for this device. The choice was made to use a low-performance phone to include as many users as possible.
 
