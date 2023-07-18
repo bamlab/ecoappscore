@@ -4,6 +4,8 @@
 
 Each version of the operating system supports a certain number of devices. If your phone is not on the list, you cannot update your operating system. Not supporting OS versions that are still in use plays a role in phone obsolescence. Users who can't update their OS find themselves unable to open their updated applications either. The only way out for them is to change their phone. This is a problem because 80% of the environmental impact of our phones is due to its manufacturing phase.
 
+Understanding the relationship between operating system (OS) support and device compatibility is crucial in the context of eco-design. Each OS version has a specific set of supported devices, and if your phone is not on the list, you are unable to update to the latest OS. However, not extending support to OS versions that are still in use contributes to the issue of phone obsolescence. Users who are unable to update their OS face the challenge of being unable to access updated applications. Regrettably, their only recourse often involves replacing their phone altogether. This presents a significant problem as approximately 80% of a phone's environmental impact stems from its manufacturing phase.
+
 ## Measure
 
 For this indicator, we need the minimum version supported on both iOS and Android.
@@ -54,10 +56,10 @@ Finally you compute your score based on the use of those device in the mondial p
 
 ### Grading
 
-- A: 95% or more of users compatible
-- B: 85% or more of users compatible
-- C: 80% or more of users compatible
-- D: Less than 80% of users compatible
+- A: your app is compatible with 95% or more of users
+- B: your app is compatible with 85% or more of users
+- C: your app is compatible with 80% or more of users
+- D: your app is compatible with less than 80% of users
 
 **Weight in the final calculation** : 3
 
