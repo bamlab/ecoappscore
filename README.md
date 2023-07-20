@@ -8,7 +8,7 @@ The digital world, including mobile devices, is responsible for a significant po
 
 EcoAppScore evaluates your app's eco-design based on three essential pillars: [device durability](./devicesDurability/devicesDurability.md), [energy sobriety](./energySobriety/energySobriety.md) and [responsible application](./responsibleApplication/). By assessing these factors, EcoAppScore helps you understand and reduce the environmental impact of your app.
 
-We understand that achieving perfection is an ongoing journey. That's why our indicators are continuously evolving. While we may have missed certain aspects in our current version, we encourage community participation to refine and expand our knowledge. Sharing your insights and expertise will contribute to the ongoing improvement of EcoAppScore. Join us and make a difference! 🌱
+We are sharing this first version and it’s still evolving as we field-test it on the apps we are currently developing.Are you passionate about making a positive impact on the environment? We invite you to explore the "How to contribute" section, where you can actively participate in shaping the future of sustainable mobile applications. Join us and make a difference! 🌱
 
 ## How to compute my score
 
