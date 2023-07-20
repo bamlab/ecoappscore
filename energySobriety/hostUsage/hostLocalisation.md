@@ -2,7 +2,9 @@
 
 ## Problem
 
-Storing data costs energy. Depending on the location of your servers and the energy mix of the host country, it has a different impact in CO2 consumption.
+Data storage is not without its environmental implications, as it requires energy consumption. The specific impact on CO2 emissions can vary depending on the geographical location of the servers and the energy mix of the host country.
+
+The carbon footprint associated with data storage is influenced by the energy sources used to power the servers. Different regions have varying energy mixes, which can range from fossil fuels to renewable sources. Consequently, the CO2 emissions resulting from data storage activities differ depending on the location.
 
 ## Measure
 

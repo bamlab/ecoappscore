@@ -2,17 +2,23 @@
 
 # EcoAppScore
 
-EcoAppScore is a tool developped and maintained by the GreenIT Guild at [BAMLab](https://www.bam.tech/). This tool gives your mobile application a score over 20 that represents how eco-designed it is. The documentation provided helps you to understand and measure the impact your app could have on the environment.
+Developed and maintained by the GreenIT Guild at [BAM.tech](https://www.bam.tech/), EcoAppScore provides your mobile app with a score out of 20 in less than 30 minutes, providing a comprehensive assessment of its eco-design.
 
-Our indicators are meant to evolve, we may have missed some parts and we know they aren’t perfect. For the moment, it is only a base on which to iterate. Sharing them is a way for us to improve this tool. If you are interested, do not hesitate to check the “How to contribute” part.
+The digital world, including mobile devices, is responsible for a significant portion of global carbon emissions. In fact, it currently accounts for 4% of the world's total emissions. Surprisingly, 80% of a mobile device's carbon footprint comes from its production, with only 20% attributed to its usage. These numbers highlight the urgent need for sustainable practices in the digital eco-system.
+
+EcoAppScore evaluates your app's eco-design based on three essential pillars: [device durability](./devicesDurability/devicesDurability.md), [energy sobriety](./energySobriety/energySobriety.md) and [responsible application](./responsibleApplication/). By assessing these factors, EcoAppScore helps you understand and reduce the environmental impact of your app.
+
+We are sharing this first version and it’s still evolving as we field-test it on the apps we are currently developing.Are you passionate about making a positive impact on the environment? We invite you to explore the "How to contribute" section, where you can actively participate in shaping the future of sustainable mobile applications. Join us and make a difference! 🌱
+
+![](./assets/EcoAppScoreFramework.png)
 
 ## How to compute my score
 
-We separate the measure in 3 pillars : [device durability](./devicesDurability/), [energy sobriety](./energySobriety/) and [responsible application](./responsibleApplication/). Each pillar contains macro-indicators, which contain indicators. Each indicator has its own markdown describing its rating and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
+Each pillar contains macro-indicators, which contain indicators. Each indicator has its own markdown describing its grading and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
 
 > Historically, we use a Samsung J3 for all Android measurements. It works as a base for our indicators and all our grades are made for this device. The choice was made to use a low-performance phone to include as many users as possible.
 
-For example, to compute the score for [app’s size][1]. Let’s say my app is 120Mb on iOS and 108Mb on android. If we go through the documentation for the app size indicator we read :
+For example, to compute the score for [app’s size][1]. Let’s say my app is 120 Mb on iOS and 108 Mb on android. If we go through the documentation for the app size indicator we read :
 
 ```
 - A: ≤ 50 Mb
@@ -23,10 +29,17 @@ For example, to compute the score for [app’s size][1]. Let’s say my app is 1
 
 We compute the average between iOS and Android, 114 and we give a note, here it is C.
 
-To compute your score you have to go through our documentation, compute your app’s score for each indicator and compute the final score as follows :
+To obtain the score of your apps, you have to evaluate each indicator and obtain the associated grade. Then, you convert it into numbers with the following equivalences:
+
+- A = 3
+- B = 2
+- C = 1
+- D = 0
+
+Finally, multiply the weight of each indicator with his grade and apply the following formula :
 
 ```
-(indicator1Rate * indicator1Weight + indicator2Rate * indicator2Weight + ...)/(total)
+20 * (indicator1Grade * indicator1Weight + indicator2Grade * indicator2Weight + ...)/(total)
 ```
 
 To give you an example, [here is the score computed with EcoAppScore of the Waze app](./WazeExample.md)

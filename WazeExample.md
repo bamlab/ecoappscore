@@ -2,6 +2,8 @@
 
 Let's take Waze, a driver assistance app, as an example to compute a score.
 
+![](./assets/WazeScore.png)
+
 ## Device durability
 
 ### Battery consumption
@@ -56,7 +58,14 @@ Let's take Waze, a driver assistance app, as an example to compute a score.
 
 ## Final Score
 
-We make the ratio between our grades and the maximum grades, and we weight following the indicators. The minimum grade is 0 and the maximum is 3. In the order given above :
+Once we have obtained the grades for each indicator, we convert them into numbers with the following equivalences.
+
+- A = 3
+- B = 2
+- C = 1
+- D = 0
+
+Then, we add the weight of each indicator. In the order given above :
 
 ```
 (3x3 + 3x3 + 0x3 + 2x3 + 3x3 + 3x2 + 0x3 + 2x3 + 0x2 + 1x3 + 1x3 + --- + --- + 0x1 + 1x3) / (3x3+3x3+3x3+3x3+3x3+3x2+3x3+3x3+3x2+3x3+3x3+3x1+3x3) = 48 / 105 = 0,45

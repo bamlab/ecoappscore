@@ -2,31 +2,29 @@
 
 ## Problem
 
-Some applications are not functional on all devices due to hardware limitations. New smartphones feature innovative technologies that didn't exist 5 or 10 years ago. If an app uses this kind of technologies, users with old devices could be affected and will not be able to benefits the full experience.
+It's important to acknowledge that not all applications can function on every device due to hardware limitations. With each passing year, new smartphones introduce innovative technologies that were nonexistent five or ten years ago. Consequently, if an app relies on these cutting-edge features, users with older devices may face limitations and be unable to fully experience the app's intended functionalities.
+
+By evaluating the presence and importance of these features within an app, we can better understand the extent to which hardware limitations may affect user experience and functionality. This analysis allows us to make informed decisions in balancing cutting-edge technologies with broader device compatibility, ensuring a seamless and inclusive app experience for all users.
 
 ## Measure
 
-For this measure, we will count how many features among those the app uses and how essential they are :
+For this measure, we will quantify the utilisation and significance of various features. The following features are taken into consideration:
 
-- NFC (Near field communication, as Apple Pay)
-
-- Arkit (augmented reality)
-
-- Touch ID
-
-- Face ID
-
-- Compass
+- NFC (Near Field Communication) - Such as Apple Pay, enabling convenient contactless payments.
+- ARKit - Augmented Reality framework that unlocks immersive and interactive experiences.
+- Touch ID - Fingerprint recognition for secure authentication.
+- Face ID - Advanced facial recognition for enhanced device security.
+- Compass - Accurate directional capabilities for navigation and orientation.
 
 ### Grading
 
-- A: No blocking features
+- A: your app proposes a full experience without blocking any features
 
-- B: Some requirements for small bonuses
+- B: your app proposes a good experience but the full experience with bonuses requires some innovative technologies
 
-- C: Parts of the application are missing
+- C: your app proposes a partial experience since some parts of the application are missing
 
-- D: Unusable app
+- D: your app is unusable on phones that don't have the required technologies
 
 **Weight in the final calculation** : 3
 

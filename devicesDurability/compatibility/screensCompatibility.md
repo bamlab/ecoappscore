@@ -2,13 +2,19 @@
 
 ## Problem
 
-Nowadays, screen sizes are increasing a lot, but some of the users may use some devices that have certain formats or capabilities. This can cause some troubles with the usage of the app.
-As developer and/or Product Owner and/or UX/UI designer, it is important to take these edge cases into account so that we avoid disturbing the user experience :
+In today's mobile landscape, we witness a significant trend of increasing screen sizes. However, it's essential to remember that certain users may still utilise devices with specific formats or capabilities. Failing to consider these edge cases can lead to usability issues and disrupt the overall user experience.
 
-- Notch : no components at the notch location on new devices
-- Curved screens : no text too distorted on the edges of the screen
-- Very small screens : no lost functionalities on a too small screen
-- Very large screen : no unreadable text on iPad screen
+As a developer, product owner, or UX/UI designer, it is paramount to account for these variations to ensure a seamless and enjoyable user experience. Let's explore some critical considerations:
+
+- Notch: With the introduction of notched displays on newer devices, it's important to avoid placing crucial components or information in the notch area to ensure optimal visibility and usability.
+
+- Curved screens: For devices with curved screens, it's crucial to prevent text or important UI elements from being distorted or difficult to read along the edges of the screen.
+
+- Very small screens: In the case of devices with smaller screens, special attention should be given to ensure that no essential functionalities are lost or compromised due to limited screen real estate.
+
+- Very large screens: Similarly, when designing for larger screens like iPads, it's vital to ensure that text and other UI elements are legible and properly adapted to the increased display size.
+
+By taking these edge cases into account during the development and design process, we can deliver a seamless user experience across a wide range of devices.
 
 ## Measure
 
@@ -23,10 +29,10 @@ It is possible to test on simulators except for the last one that is only a nice
 
 ### Grading
 
-- A: I have no loss of user experience, it is optimal on all screens, in all edge cases
-- B: I have a loss of user experience for some edge cases (text too small, curved ...)
-- C: I have a loss of minor functionalities on some edge cases
-- D: I have a loss of major functionalities of the application in some edge cases
+- A: your app proposes an optimal user experience on all screens, in all edge cases
+- B: your app proposes a loss of user experience for some edge cases (text too small, curved ...)
+- C: your app proposes a loss of minor functionalities on some edge cases
+- D: your app proposes a loss of major functionalities of the application in some edge cases
 
 **Weight in the final calculation** : 2
 

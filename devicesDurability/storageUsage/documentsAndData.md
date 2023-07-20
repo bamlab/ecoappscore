@@ -2,7 +2,11 @@
 
 ## Problem
 
-Even more than the size of the app, the documents and data stored/cached by the app on the user's phone fill up their memory without them having good control over it. When the memory is saturated, the user will try to switch devices.
+Beyond the size of the app itself, the accumulation of documents and cached data by an app on a user's phone can swiftly consume valuable memory space, often without the user having full control over it. As the memory becomes saturated, users are often left with no other choice but to contemplate switching to a new device.
+
+This issue highlights the significance of efficient data management within mobile applications. By implementing strategies that prioritise responsible data storage, retrieval, and caching, we can mitigate the impact of app-related memory usage on user devices.
+
+Enabling users to have greater control over the data stored by the app, such as offering options to clear caches or manage stored documents, empowers them to make informed decisions and optimise memory usage. Additionally, adopting efficient data handling practices within the app can minimise unnecessary memory consumption, alleviating the need for users to resort to device replacement.
 
 ## Measure
 
@@ -20,10 +24,10 @@ Use the app for 10 minutes straight and try to use as many features as possible.
 
 Follow the scale below:
 
-- A < 10 Mb : Small app that does not use cache
-- B < 30 Mb : App that does not use a lot of cache
-- C < 100 Mb : App that uses the cache but with light data
-- D > 100 Mb : App that uses the cache with large data
+- A: < 10 Mb your app is small app and does not use cache
+- B: < 30 Mb your app does not use a lot of cache
+- C: < 100 Mb your app uses the cache but with light data
+- D: > 100 Mb your app uses the cache with large data
 
 **Weighting in the total calculation** : 3
 

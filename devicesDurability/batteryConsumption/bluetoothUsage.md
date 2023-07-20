@@ -2,11 +2,11 @@
 
 ## Problem
 
-Using Bluetooth drastically increases battery consumption.
+When it comes to conserving battery life, it's important to consider the impact of Bluetooth usage. Bluetooth serves as a means to exchange data between devices in close proximity. However, it's worth noting that using Bluetooth can significantly drain your device's battery.
 
-Bluetooth is a way to exchange data between devices in close proximity. There is a variant called Bluetooth Low Energy, introduced in 2010, which consumes less power but has a lower bandwidth.
+In 2010, Bluetooth Low Energy (BLE) was introduced as a variant that consumes less power but offers a lower bandwidth compared to traditional Bluetooth. On the other hand, Near Field Communication (NFC) enables data transfer at approximately 425 kb/s, which is lower than both BLE and regular Bluetooth. If the information exchange doesn't require a higher bandwidth, it's advisable to opt for NFC. Additionally, NFC facilitates short-range exchanges while consuming a similar amount of power as BLE. NFC is particularly useful when one of the parties involved is passive, such as a card terminal (active) and a credit card (passive).
 
-NFC allows a transfer of ~425 kb/s, less than its counterpart BLE and even less than Bluetooth. If the exchange of information does not need to be more important than that, it is better to use NFC. It also allows short-range exchanges with a similar consumption as BLE. NFC works if one of the parties is passive (e.g. card terminal (active) and credit card (passive))
+By being mindful of these factors and choosing the appropriate wireless technology for your specific use case, you can optimise battery usage and promote energy efficiency in your app's functionality.
 
 ## Measure
 
@@ -14,10 +14,10 @@ For this measure, we will grade what type of short range communication the app u
 
 ### Grading
 
-- A: no short range communication
-- B: BLE / NFC
-- C: Bluetooth from time to time
-- D: Bluetooth in constant exchange
+- A: your app doesn't use short range communication
+- B: your app uses BLE / NFC
+- C: your app uses Bluetooth from time to time
+- D: your app uses Bluetooth in constant exchange
 
 **Weight in the final calculation** : 3
 

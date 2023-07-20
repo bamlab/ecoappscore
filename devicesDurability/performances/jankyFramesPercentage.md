@@ -37,10 +37,10 @@ Janky frames: 1975 (74.42%)
 
 Score according to the number of junky frames observed:
 
-- A < 15% : The user does not perceive the janky frames
-- B < 30% : The user hardly notices the janky frames
-- C < 50% : The janky frames are visible but it's not too annoying
-- D > 50% : The user experience is degraded enough to annoy him
+- A: < 15% The user does not perceive the janky frames
+- B: < 30% The user hardly notices the janky frames
+- C: < 50% The janky frames are visible but it's not too annoying
+- D: > 50% The user experience is degraded enough to annoy him
 
 **Weighting in the total calculation** : 3
 

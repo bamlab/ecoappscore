@@ -2,10 +2,13 @@
 
 ## Problem
 
-Using GPS data drastically increases battery consumption
+When it comes to conserving battery life, it's crucial to consider the impact of GPS data usage in mobile applications.
 
-- Using antenna chip instead of GPS chip allows a 90% reduction in power consumption related to position sharing. On the other hand, the position is less accurate.
-- In some cases, location by wifi or by phone antenna could be sufficient, but we still use GPS.
+Using the GPS chip for position sharing significantly drains the device's battery. However, opting for an antenna chip instead of a GPS chip offers a compelling solution, resulting in a remarkable 90% reduction in power consumption related to location services. It's worth noting that using an antenna chip may lead to slightly less accurate positioning compared to GPS.
+
+In certain scenarios, alternative methods such as location tracking through Wi-Fi or phone antennas can be sufficient. Despite these viable alternatives, GPS is often utilised, even when other options are available. By evaluating the specific needs of your app and considering the trade-offs between accuracy and power consumption, you can make informed decisions to optimise energy efficiency in location-based functionalities.
+
+By prioritising power-efficient location services and exploring alternative positioning methods, we can significantly reduce the environmental impact associated with excessive battery consumption.
 
 ## Measure
 
@@ -15,10 +18,10 @@ To check that the location is used, you have a status bar icon in both Android a
 
 ### Grading
 
-- A: I never use location
-- B: I only use an "imprecise" location (antenna / wifi)
-- C: I use GPS occasionally
-- D: I use GPS permanently
+- A: your app never uses location
+- B: your app only uses an "imprecise" location (antenna / wifi)
+- C: your app uses GPS occasionally
+- D: your app uses GPS permanently
 
 **Weight in the final calculation** : 3
 

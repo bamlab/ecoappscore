@@ -10,10 +10,10 @@ For this measure, we will use a script. We launch the app's .apk file on a given
 
 ### Grading
 
-- A : The app starts in less than 3 seconds
-- B : The app takes between 3 and 6 seconds to start
-- C : The app takes between 6 and 10 seconds to start
-- D : The app takes more than 10 seconds to start
+- A: The app starts in less than 3 seconds
+- B: The app takes between 3 and 6 seconds to start
+- C: The app takes between 6 and 10 seconds to start
+- D: The app takes more than 10 seconds to start
 
 **Weighting in the total calculation** : 3
 

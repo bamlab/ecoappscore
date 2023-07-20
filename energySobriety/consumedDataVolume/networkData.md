@@ -2,9 +2,11 @@
 
 ## Problem
 
-The number of requests (HTTP, SQL, etc.) necessary for the app to function partly determines the physical resource requirements. It is therefore a key technical indicator to measure the impact of the software layer on the physical infrastructure.
+The number of requests, be it HTTP or SQL, required for an app to function plays a vital role in determining its physical resource requirements. This technical indicator provides valuable insights into the impact of the software layer on the underlying physical infrastructure.
 
-Reducing the number of requests per page is crucial to reduce the number of HTTP servers needed to run the app, and thus the associated environmental impacts.
+To minimise the environmental footprint associated with the app's operation, it is crucial to focus on reducing the number of requests per page. By doing so, we can effectively reduce the need for multiple HTTP servers to run the app, subsequently mitigating the environmental impacts linked to their operation.
+
+Optimising the app's architecture and implementing efficient data retrieval and transmission techniques can help streamline the number of requests, resulting in a leaner and more environmentally friendly app infrastructure.
 
 ## Measure
 
@@ -26,10 +28,10 @@ For this measure, we will use both iOS and Android devices.
 
 ### Grading
 
-- A: <25Mb, messaging type without video calls, weather, translation
-- B: <50Mb, image search type such as Pinterest
-- C: <100Mb, social network type such as instagram
-- D: >100Mb, video or streaming service type
+- A: < 25 Mb, messaging type without video calls, weather, translation
+- B: < 50 Mb, image search type such as Pinterest
+- C: < 100 Mb, social network type such as instagram
+- D: > 100 Mb, video or streaming service type
 
 **Weight in the final calculation** : 3
 

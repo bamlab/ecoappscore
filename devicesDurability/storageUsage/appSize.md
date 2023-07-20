@@ -2,7 +2,13 @@
 
 ## Problem
 
-Phone storage is limited. Nowadays it's becoming a real issue for phone owners that cannot have all their favourite app on their phone and sometimes need to chose between deleting some of them or changing phone. Also the issue was solved previously with the addition of the micro SD card. But with the improvements of the latest years, fewer and fewer phones possess a micro SD port.
+The limitation of phone storage has emerged as a significant concern for smartphone owners. In today's digital age, it has become increasingly challenging to accommodate all our favorite apps on our devices. This dilemma often forces users to make difficult choices, such as deleting apps or even considering the need to replace their phone altogether.
+
+Historically, the addition of a micro SD card slot provided a solution to expand storage capacity. However, with advancements in recent years, we have witnessed a decline in the presence of micro SD ports on smartphones. As a result, users now have fewer opportunities to enhance their device's storage capabilities.
+
+Recognising the impact this issue has on user experience and the environment, it is crucial for manufacturers and designers to address storage limitations effectively. Developing innovative solutions, such as optimising app sizes and exploring alternative storage options, can alleviate the strain on phone owners and reduce the need for drastic measures like changing devices.
+
+By proactively considering storage constraints during the app development process and advocating for devices that offer flexible storage options, we can enhance user satisfaction and contribute to a more sustainable approach to smartphone usage.
 
 ## Measure
 
@@ -24,10 +30,10 @@ Hold application icon > Info button > Storage > App's size
 
 Compute the average between iOS and Android size, then then following the scale below you can set the grade of this indicator.
 
-- A < 50 Mb : Small and optimized app
-- B < 100 Mb : Large but optimized app, or small and not so optimized app
-- C < 150 Mb : Very large app or large and not optimized app
-- D > 150 Mb : Too large app, insult to optimization
+- A: < 50 Mb your app is small and optimized
+- B: < 100 Mb your app is large
+- C: < 150 Mb your app is very large app
+- D: > 150 Mb your app is too large
 
 **Weighting in the total calculation** : 2
 

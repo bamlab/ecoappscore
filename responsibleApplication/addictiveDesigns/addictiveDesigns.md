@@ -33,10 +33,10 @@ Addictive designs might reward the user for its attendance thanks to:
 
 ### Grading
 
-- A : 0 or 1 addictive design
-- B : 2 to 3 addictive designs
-- C : 4 to 5 addictive designs
-- D : more than 6 addictive designs
+- A: your app includes 0 or 1 addictive design
+- B: your app includes 2 to 3 addictive designs
+- C: your app includes 4 to 5 addictive designs
+- D: your app includes more than 6 addictive designs
 
 **Weighting in the total calculation** : 3
 
