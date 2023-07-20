@@ -24,10 +24,10 @@ Use the app for 10 minutes straight and try to use as many features as possible.
 
 Follow the scale below:
 
-- A < 10 Mb : your app is small app and does not use cache
-- B < 30 Mb : your app does not use a lot of cache
-- C < 100 Mb : your app uses the cache but with light data
-- D > 100 Mb : your app uses the cache with large data
+- A: < 10 Mb your app is small app and does not use cache
+- B: < 30 Mb your app does not use a lot of cache
+- C: < 100 Mb your app uses the cache but with light data
+- D: > 100 Mb your app uses the cache with large data
 
 **Weighting in the total calculation** : 3
 

@@ -14,10 +14,10 @@ For this measure, we will count the number of environments deployed for the back
 
 ### Grading
 
-- A : your app uses 2 environments or less (usually staging and prod)
-- B : your app uses 3 environments
-- C : your app uses 4 environments
-- D : your app uses more than 5 environments
+- A: your app uses 2 environments or less (usually staging and prod)
+- B: your app uses 3 environments
+- C: your app uses 4 environments
+- D: your app uses more than 5 environments
 
 **Weighting in the total calculation** : 1
 

@@ -30,10 +30,10 @@ Hold application icon > Info button > Storage > App's size
 
 Compute the average between iOS and Android size, then then following the scale below you can set the grade of this indicator.
 
-- A < 50 Mb : your app is small and optimized
-- B < 100 Mb : your app is large
-- C < 150 Mb : your app is very large app
-- D > 150 Mb : your app is too large
+- A: < 50 Mb your app is small and optimized
+- B: < 100 Mb your app is large
+- C: < 150 Mb your app is very large app
+- D: > 150 Mb your app is too large
 
 **Weighting in the total calculation** : 2
 

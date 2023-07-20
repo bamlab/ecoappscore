@@ -20,8 +20,8 @@ For this measure, we will take into account:
 
 ### Grading
 
-- A : your app has a single dark theme or two possible modes (dark/light)
-- D : your app has a single theme that is not dark
+- A: your app has a single dark theme or two possible modes (dark/light)
+- D: your app has a single theme that is not dark
 
 **Weight in the final calculation** : 3
 
