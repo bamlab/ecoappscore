@@ -6,7 +6,7 @@ Developed and maintained by the GreenIT Guild at [BAM.tech](https://www.bam.tech
 
 The digital world, including mobile devices, is responsible for a significant portion of global carbon emissions. In fact, it currently accounts for 4% of the world's total emissions. Surprisingly, 80% of a mobile device's carbon footprint comes from its production, with only 20% attributed to its usage. These numbers highlight the urgent need for sustainable practices in the digital eco-system.
 
-EcoAppScore evaluates your app's eco-design based on three essential pillars: [device durability](./devicesDurability/devicesDurability.md), [energy sobriety](./energySobriety/energySobriety.md) and [responsible application](./responsibleApplication/). By assessing these factors, EcoAppScore helps you understand and reduce the environmental impact of your app.
+EcoAppScore evaluates your app's eco-design based on three essential pillars: [device durability](./devicesDurability/devicesDurability.md), [energy sobriety](./energySobriety/energySobriety.md) and [responsible application](./responsibleApplication/responsibleApplication.md/). By assessing these factors, EcoAppScore helps you understand and reduce the environmental impact of your app.
 
 We are sharing this first version and it’s still evolving as we field-test it on the apps we are currently developing.Are you passionate about making a positive impact on the environment? We invite you to explore the "How to contribute" section, where you can actively participate in shaping the future of sustainable mobile applications. Join us and make a difference! 🌱
 
