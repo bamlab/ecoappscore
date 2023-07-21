@@ -42,7 +42,9 @@ Finally, multiply the weight of each indicator with his grade and apply the foll
 20 * (indicator1Grade * indicator1Weight + indicator2Grade * indicator2Weight + ...)/(total)
 ```
 
-To give you an example, [here is the score computed with EcoAppScore of the Waze app](./WazeExample.md)
+### Example
+
+To give you an example on how the indicators work, [see the process and the score with EcoAppScore for the Waze app](./WazeExample.md)
 
 ## How to contribute
 
