@@ -2,7 +2,7 @@
 
 Let's take Waze, a driver assistance app, as an example to compute a score.
 
-It obtains the of final grade of 🔴 **9,1 / 20** . 
+Waze obtains the final grade of 🔴 **9,1 / 20** . 
 
 Here is the detail of each indicator parts in the final grade:
 
