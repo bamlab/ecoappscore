@@ -4,7 +4,7 @@
 
 Developed and maintained by the GreenIT Guild at [BAM.tech](https://www.bam.tech/), EcoAppScore provides your mobile app with a score out of 20 in less than 30 minutes, providing a comprehensive assessment of its eco-design.
 
-The digital world, including mobile devices, is responsible for a significant portion of global carbon emissions. In fact, it currently accounts for 4% of the world's total emissions. Surprisingly, 80% of a mobile device's carbon footprint comes from its production, with only 20% attributed to its usage. These numbers highlight the urgent need for sustainable practices in the digital eco-system.
+The digital world, including mobile devices, is responsible for a significant portion of global carbon emissions. In fact, it currently accounts for almost [4% of the world's total emissions](https://www.cell.com/patterns/fulltext/S2666-3899(21)00188-4), more than civil aviation. Surprisingly, around [80% of a mobile device's carbon footprint comes from its production](https://www.senat.fr/rap/r19-555/r19-5551.pdf), with only 20% attributed to its usage. These numbers highlight the urgent need for sustainable practices in the digital eco-system.
 
 EcoAppScore evaluates your app's eco-design based on three essential pillars: [device durability](./devicesDurability/devicesDurability.md), [energy sobriety](./energySobriety/energySobriety.md) and [responsible application](./responsibleApplication/responsibleApplication.md/). By assessing these factors, EcoAppScore helps you understand and reduce the environmental impact of your app.
 
@@ -42,7 +42,9 @@ Finally, multiply the weight of each indicator with his grade and apply the foll
 20 * (indicator1Grade * indicator1Weight + indicator2Grade * indicator2Weight + ...)/(total)
 ```
 
-To give you an example, [here is the score computed with EcoAppScore of the Waze app](./WazeExample.md)
+### Example
+
+To give you an example on how the indicators work, [see the process and the score with EcoAppScore for the Waze app](./WazeExample.md)
 
 ## How to contribute
 
