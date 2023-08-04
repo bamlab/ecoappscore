@@ -10,8 +10,32 @@ EcoAppScore evaluates your app's eco-design based on three essential pillars: [d
 
 We are sharing this first version and it’s still evolving as we field-test it on the apps we are currently developing.Are you passionate about making a positive impact on the environment? We invite you to explore the "How to contribute" section, where you can actively participate in shaping the future of sustainable mobile applications. Join us and make a difference! 🌱
 
-![](./assets/EcoAppScoreFramework.png)
 
+| Category                | Indicator            | Weight | Grade | Score |
+|----------------------|------------------------|--------|-------|-----|
+| **DEVICES DURABILITY**   |                        |        |       |     |
+| ***Battery consumption***|                    |        |       |     |
+|                      | Colors usage within the app| 3    | A     | 9   |
+|                      | Bluetooth usage        | 3      | C     | 3   |
+|                      | GPS usage              | 3      | D     | 0   |
+| ***Compatibilities***|                        |        |       |     |
+|                      | Functional Compatibilities | 3  | B | 6 |
+|                      | OS Compatibilities     | 3      | A     | 9   |
+|                      | Screens Compatibilities| 2     | A     | 6   |
+| ***Mobile performance***|                     |        |       |     |
+|                      | Flashlight Score       | 3      | D     | 0   |
+| ***Storage usage***  |                        |        |       |     |
+|                      | App size               | 2      | D     | 0   |
+|                      | Documents and data     | 3      | C     | 3   |
+| **ENERGY SOBRIETY**      |                        |        |       |     |
+| ***Consumed data volume***|                   |        |       |     |
+|                      | Network data           | 3      | C     | 3   |
+|***Host usage***      |                        |        |       |     |
+|                      | Host localisation      | 3      |    -   |  -   |
+|                      | Environments Number    | 1      |   -    |  -   |
+| **RESPONSIBLE APPLICATION** |                     |        |       |     |
+|                      | accessibility          | 1      | D     | 0   |
+|                      | addictive designs      | 3      | C     | 3   |
 ## How to compute my score
 
 Each pillar contains macro-indicators, which contain indicators. Each indicator has its own markdown describing its grading and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.
