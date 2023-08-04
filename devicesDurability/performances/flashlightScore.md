@@ -4,11 +4,12 @@
 
 The performance of an application can be measured through multiple metrics such as:
 
-- Average FPS
-- Average CPU usage
-- High CPU usage time
-- Average RAM usage
-- Time to interact
+- Average FPS: The application needs to generate a sufficient number of frames per second (FPS) in order to have a pleasant user experience. If there are too few FPS, the application may "freeze" visually. Your app should display close to 60 Frames Per Second to give an impression of fluidity.
+- Average CPU usage: An application might run at 60FPS but might be using too much processing power, so it's important to check CPU usage.
+Depending on the device, this value can go up to 100% x number of cores. 
+- High CPU usage time: High CPU usage by a single process can cause app unresponsiveness, even with low overall CPU usage. For instance, an overworked JS thread in a React Native app may lead to unresponsiveness despite maintaining 60 FPS.
+- Average RAM usage: If an app consumes a large amount of RAM (random-access memory), it can impact the overall performance of the device and drain the battery more quickly.
+- Time to interact: The longer the boot time, the more it is representative of an intense CPU load. This can impact the processor degradation (as well as the power consumption).
 
 Measuring all of them manually can be difficult and lead to false or imprecise results. Flashlight can solve this issue by running automated tests, measure and write a report with the results of the tests.
 
@@ -23,7 +24,12 @@ All these reasons might lead the user to change his phone because he doesn't fin
 
 ## Measure
 
-For this measure, we will use Flashlight, an open source project developed by BAM. We follow the steps written [here](https://docs.flashlight.dev/) to measure in live the performance of the app or [here](https://docs.flashlight.dev/test/getting-started) if we want to automatise some tests. We can even use [the cloud version](https://docs.flashlight.dev/cloud/intro).
+For this measure, we will use Flashlight, an open source project developed by @bam.tech. We follow the steps written [here](https://docs.flashlight.dev/) to measure in live the performance of the app or [here](https://docs.flashlight.dev/test/getting-started) if we want to automatise some tests. We can even use [the cloud version](https://docs.flashlight.dev/cloud/intro).
+
+
+## iOS
+
+For the moment, Flashlight is not available on iOS.
 
 ### Grading
 
