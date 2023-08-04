@@ -28,9 +28,8 @@ Here is the detail of each indicator parts in the final grade:
 
 ### Performances
 
-- For the [**janky frames percentage**][7] indicator, we did the measurement with a samsung J3 and found 67% of janky frames, grading the app at D as it is above 50%.
-
-- For the [**launching duration**][8] indicator, we also use a J3 and found a duration between 3 and 6 secondes, which corresponds to the grade B.
+- For the **flashlight score** indicator, we did the measurement with Flashlight cloud and found a score of 60, which gives the app a score of D.
+![](./assets/WazeFlashlightScore.png)
 
 ### Storage usage
 
