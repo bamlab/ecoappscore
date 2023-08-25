@@ -29,8 +29,8 @@ Here is the detail of each indicator parts in the final grade:
 |                      | Host localisation      | 3      |    -   |  -   |
 |                      | Environments Number    | 1      |   -    |  -   |
 | **RESPONSIBLE APPLICATION** |                     |        |       |     |
-|                      | accessibility          | 1      | D     | 0   |
-|                      | addictive designs      | 3      | C     | 3   |
+|                      | Accessibility          | 1      | D     | 0   |
+|                      | Addictive designs      | 3      | C     | 3   |
 
 
 ## Device durability
@@ -53,7 +53,7 @@ Here is the detail of each indicator parts in the final grade:
 
 ### Performances
 
-- For the **flashlight score** indicator, we did the measurement with Flashlight cloud and found a score of 60, which gives the app a score of D.
+- For the **Flashlight score** indicator, we did the measurement with Flashlight cloud and found a score of 60, which gives the app a score of D.
 ![](./assets/WazeFlashlightScore.png)
 
 ### Storage usage

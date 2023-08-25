@@ -34,8 +34,8 @@ We are sharing this first version and it’s still evolving as we field-test it 
 |                      | Host localisation      | 3      |    -   |  -   |
 |                      | Environments Number    | 1      |   -    |  -   |
 | **RESPONSIBLE APPLICATION** |                     |        |       |     |
-|                      | accessibility          | 1      | D     | 0   |
-|                      | addictive designs      | 3      | C     | 3   |
+|                      | Accessibility          | 1      | D     | 0   |
+|                      | Addictive designs      | 3      | C     | 3   |
 ## How to compute my score
 
 Each pillar contains macro-indicators, which contain indicators. Each indicator has its own markdown describing its grading and weight. We also provide some documentation on how and why we decided to take the indicator in our measure.

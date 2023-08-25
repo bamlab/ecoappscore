@@ -24,7 +24,7 @@ All these reasons might lead the user to change his phone because he doesn't fin
 
 ## Measure
 
-For this measure, we will use Flashlight, an open source project developed by @bam.tech. We follow the steps written [here](https://docs.flashlight.dev/) to measure in live the performance of the app or [here](https://docs.flashlight.dev/test/getting-started) if we want to automatise some tests. We can even use [the cloud version](https://docs.flashlight.dev/cloud/intro).
+For this measure, we will use Flashlight, an open source project developed by [BAM.tech](https://www.bam.tech/). We follow the steps written [here](https://docs.flashlight.dev/) to measure in live the performance of the app or [here](https://docs.flashlight.dev/test/getting-started) if we want to automatise some tests. We can even use [the cloud version](https://docs.flashlight.dev/cloud/intro).
 
 
 ## iOS
