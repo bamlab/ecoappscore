@@ -2,11 +2,36 @@
 
 Let's take Waze, a driver assistance app, as an example to compute a score.
 
-Waze obtains the final grade of 🔴 **9,1 / 20** . 
+Waze obtains the final grade of 🔴 **8.75 / 20** . 
 
 Here is the detail of each indicator parts in the final grade:
 
-![](./assets/WazeScore.png)
+| Category                | Indicator            | Weight | Grade | Score |
+|----------------------|------------------------|--------|-------|-----|
+| **DEVICES DURABILITY**   |                        |        |       |     |
+| ***Battery consumption***|                    |        |       |     |
+|                      | Colors usage within the app| 3    | A     | 9   |
+|                      | Bluetooth usage        | 3      | C     | 3   |
+|                      | GPS usage              | 3      | D     | 0   |
+| ***Compatibilities***|                        |        |       |     |
+|                      | Functional Compatibilities | 3  | B | 6 |
+|                      | OS Compatibilities     | 3      | A     | 9   |
+|                      | Screens Compatibilities| 2     | A     | 6   |
+| ***Mobile performance***|                     |        |       |     |
+|                      | Flashlight Score       | 3      | D     | 0   |
+| ***Storage usage***  |                        |        |       |     |
+|                      | App size               | 2      | D     | 0   |
+|                      | Documents and data     | 3      | C     | 3   |
+| **ENERGY SOBRIETY**      |                        |        |       |     |
+| ***Consumed data volume***|                   |        |       |     |
+|                      | Network data           | 3      | C     | 3   |
+|***Host usage***      |                        |        |       |     |
+|                      | Host localisation      | 3      |    -   |  -   |
+|                      | Environments Number    | 1      |   -    |  -   |
+| **RESPONSIBLE APPLICATION** |                     |        |       |     |
+|                      | Accessibility          | 1      | D     | 0   |
+|                      | Addictive designs      | 3      | C     | 3   |
+
 
 ## Device durability
 
@@ -28,9 +53,8 @@ Here is the detail of each indicator parts in the final grade:
 
 ### Performances
 
-- For the [**janky frames percentage**][7] indicator, we did the measurement with a samsung J3 and found 67% of janky frames, grading the app at D as it is above 50%.
-
-- For the [**launching duration**][8] indicator, we also use a J3 and found a duration between 3 and 6 secondes, which corresponds to the grade B.
+- For the **Flashlight score** indicator, we did the measurement with Flashlight cloud and found a score of 60, which gives the app a score of D.
+![](./assets/WazeFlashlightScore.png)
 
 ### Storage usage
 
@@ -72,12 +96,10 @@ Once we have obtained the grades for each indicator, we convert them into number
 Then, we add the weight of each indicator. In the order given above :
 
 ```
-(3x3 + 3x3 + 0x3 + 2x3 + 3x3 + 3x2 + 0x3 + 2x3 + 0x2 + 1x3 + 1x3 + --- + --- + 0x1 + 1x3) /(3x3+3x3+3x3+3x3+3x3+3x2+3x3+3x3+3x2+3x3+3x3+3x1+3x3) 
- = 48 / 105 
- = 0,45
+(3x3 + 3x1 + 0x3 + 2x3 + 3x3 + 3x2 + 0x3 + 0x2 + 1x3 + 1x3 + --- + --- + 0x1 + 1x3) / (3x3+3x3+3x3+3x3+3x2+3x3+3x3+3x2+3x3+3x3+3x1+3x3) = 42 / 96 = 0,45
 ```
 
-Usually we score out of 20, which gives the final grade of **9,1/20**
+Usually we score out of 20, which gives the final grade of **8.75/20**
 
 [1]: devicesDurability/batteryConsumption/bluetoothUsage.md
 [2]: devicesDurability/batteryConsumption/coloursUsage.md
