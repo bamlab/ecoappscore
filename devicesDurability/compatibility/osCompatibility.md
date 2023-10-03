@@ -10,41 +10,43 @@ For this indicator, we need the minimum version supported on both iOS and Androi
 
 The API number for Android can be found in the build.gradle file: minSdkVersion parameter. For a public application, see on the store. Then the percentage of users having at least this version is displayed.
 
-- Android 12.0 (API level 31, 32) - 30%
+- Android 13.0 (API level 33) - 35%
 
-- Android 11.0 (API level 30) - 55%
+- Android 12.0 (API level 31, 32) - 54%
 
-- Android 10.0 (API level 29) - 74%
+- Android 11.0 (API level 30) - 73%
 
-- Pie 9.0 (API level 28) - 83%
+- Android 10.0 (API level 29) - 82%
 
-- Oreo 8 (API level 26, 27) - 88%
+- Pie 9.0 (API level 28) - 89%
 
-- Nougat 7 (API level 24, 25) - 90%
+- Oreo 8 (API level 26, 27) - 94%
 
-- Marshmallow 6.0 (API level 23) - 92.5%
+- Nougat 7 (API level 24, 25) - 96.5%
 
-- Lollipop 5.1 (API level 22) - 94.5%
+- Marshmallow 6.0 (API level 23) - 98%
 
-- Lollipop 5.0 (API level 21) - 98%
+- Lollipop 5.0 (API level 21, 22) - 99.5%
 
-- Kitkat 4.4 (API level 19) - 99,6%
+- Kitkat 4.4 (API level 19) - 99,8%
 
 - Older - 100%
 
 The iOS version number can be read in the podfile or in the app store. Then the percentage of users who have at least this version is displayed.
 
-- 16.X - 40%
+- 17.0 - 5%
 
-- 15.X - 87%
+- 16.X - 82.5%
 
-- 14.X - 93%
+- 15.X - 93%
 
-- 13.X - 94%
+- 14.X - 95%
 
-- 12.X - 97,5%
+- 13.X - 97%
 
-- 10/11.X - 98,5%
+- 12.X - 99%
+
+- 10/11.X - 99.5%
 
 - Older - 100%
 
