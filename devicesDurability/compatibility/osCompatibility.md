@@ -57,7 +57,7 @@ Finally you compute your score based on the use of those device in the mondial p
 ### Grading
 
 - A: your app is compatible with 95% or more of users
-- B: your app is compatible with 85% or more of users
+- B: your app is compatible with 90% or more of users
 - C: your app is compatible with 80% or more of users
 - D: your app is compatible with less than 80% of users
 
@@ -67,7 +67,7 @@ Finally you compute your score based on the use of those device in the mondial p
 
 ### Sources
 
-- gs.statcounter.com - November 2022
+- Last update of share's number for each OS: October 2023.
 - [https://blog.bam.tech/developer-news/improving-the-carbon-footprint-of-mobile-applications-a-word-on-compatibility](https://blog.bam.tech/developer-news/improving-the-carbon-footprint-of-mobile-applications-a-word-on-compatibility)
 - [https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide](https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide)
 - [https://david-smith.org/iosversionstats/](https://david-smith.org/iosversionstats/)
