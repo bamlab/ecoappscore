@@ -8,6 +8,14 @@ To minimise the environmental footprint associated with the app's operation, it 
 
 Optimising the app's architecture and implementing efficient data retrieval and transmission techniques can help streamline the number of requests, resulting in a leaner and more environmentally friendly app infrastructure.
 
+### Case study
+
+On a sample iPhone SE, 13 apps ranked by their network data consumption size: 
+
+<img src="../../assets/networkDataSize.png" width=500/>
+
+*March 2021*
+
 ## Measure
 
 For this measure, we will use both iOS and Android devices.

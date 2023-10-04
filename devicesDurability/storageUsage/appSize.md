@@ -10,6 +10,14 @@ Recognising the impact this issue has on user experience and the environment, it
 
 By proactively considering storage constraints during the app development process and advocating for devices that offer flexible storage options, we can enhance user satisfaction and contribute to a more sustainable approach to smartphone usage.
 
+### Case study
+
+On a sample iPhone 13 mini, every app installed ranked by size: 
+
+<img src="../../assets/appSize.png" />
+
+*October 2022*
+
 ## Measure
 
 For this measure, we will use both an android and an iOS devices.
@@ -39,4 +47,5 @@ Compute the average between iOS and Android size, then then following the scale 
 
 ## Other information
 
-The download limit for an app without a wifi connexion used to be 150Mb, it was recently raised to 200Mb
+The download limit for an app without a wifi connexion used to be 150Mb, it was recently raised to 200Mb.
+
